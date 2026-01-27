@@ -46,19 +46,19 @@ Once connected, you will be using Bash (the shell).  If you're unfamiliar with u
   ```
   After you press enter, you'll may be prompted for which config file to use. For now, select the first one in the list. You should see a dialog box that says 'host added!'
   
-  3. Connect to the host: Once again, open Remote-SSH's commands from VScode's command palette by pressing 'CMD + Shift + P'. This time, you want 'Remote-SSH: Connect Current Window to Host...'. You will be prompted for your password. If this all works, congrats. You will have a much shorter Lab 1 this week
+  3. Connect to the host: Once again, open Remote-SSH's commands from VScode's command palette by pressing 'CMD + Shift + P'. This time, you want 'Remote-SSH: Connect Current Window to Host...'. You will be prompted for your password. If this all works, congrats. You will have a much shorter Lab 1 this week. Steps 6 and 7 will be performed in lab as well. 
   
-**Step 6. Sign up for a GitHub account [here](https://github.com) and fork the Gen711/811 Lab Repository**
-  1. Sign up for a GitHub account: Follow the instructions provided by GitHub
-  2. From a from your GitHub account, **fork** this repository: https://github.com/jthmiller/gen711-811.git** ![fork image](../images/fork.png) Note: If you can't find the 'fork' button, you can try this [shortcut](https://github.com/jthmiller/gen711-811/fork)    
-  3. Copy the address of your cloned repository: You should now have the Gen711/811 Lab Repository in the list of your Github repos. In your web browser, login to GitHub and click on your username in the top left of the screen to ensure that you are at your own github page. Then change the tab in the top left from 'Overview' to the 'Repositories'. If you forked the 'gen711-811' in step 2, you should see 'gen711-811' listed in among your repositories. Click on it, and the click on the green '<> Code' dropdown button and copy the HTTPS address of your Clone (the addess should look like https://github.com/jthmiller/gen711-811.git). We will use this address to run a command at RON to copy this directory there.
+**Step 6. Fork the Gen711/811 Lab Repository**
+  1. Sign in to your GitHub account.
+  2. From a from your GitHub account, you will need to **fork** this repository: https://github.com/jthmiller/gen711-811.git** ![fork image](../images/fork.png) Note: If you can't find the 'fork' button, you can try this [shortcut](https://github.com/jthmiller/gen711-811/fork)    
+  3. In your web browser, navigate back to your own GitHub page. Login to GitHub if needed and click on your username in the top left of the screen to ensure that you are at your own github page. Then change the tab in the top left from 'Overview' to the 'Repositories'. If you forked 'gen711-811' in step 2, you should see 'gen711-811' listed in among your repositories. Click on it, and then click on the green '<> Code' dropdown button and copy the HTTPS address of your Clone (the address should look like https://github.com/jthmiller/gen711-811.git). We will use this address to run a command at RON to copy this directory there using the command line.
   
 **Step 7. Clone the gen711-811 github repo into your home directory on RON:**
 If you completed all other steps successfully and hope to leave lab a little earlier than most, try this final task. In VSCode, you should see a little box for typing ssh commands on the bottom right. In the terminal that is connected to RON, we will run the clone command. It should look something like this:   
 ``` 
 git clone https://github.com/YOURUSERNAME/gen711-811.git
 ``` 
-This should have resulted in some indication that everything downloaded. If you'd like to confirm that it worked, you can use the 'ls' command. Simply type 'ls' into the terminal connected to RON, and you should see the directory listed
+This should have resulted in some indication that everything downloaded. If you'd like to confirm that it worked, you can use the 'ls' command. Simply type 'ls' into the terminal connected to RON, and you should see the directory listed. Good luck!
 ```
 ls
 ```
