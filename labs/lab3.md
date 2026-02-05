@@ -28,7 +28,7 @@ To change directories, use 'cd' and then hit tab two times to see directories in
 
 
 
-### Complete the questions below
+### Complete the questions below when intrstructed. Push the changes to this document to recive credit for attending the lab
 
 #### 1. What are 3 ways to change directories to your home directory from the  untrimmed_fastq directory?
 1.
