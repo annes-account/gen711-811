@@ -24,3 +24,12 @@ less looks through files and lets you scroll through it rather than printing it 
 to quit, hit q
 cp means copy
 mkdir means make directory
+2/20/26 Lab 5 Notes
+used ls -lh to find the size of the file in human readable format
+K means kilobytes when used as a unit
+to do an absolute path, start out with the forward slash (ex: ls -lh /home/amb1589/)
+rwx means read write execute
+for drwxrwxrwx the file type is the first letter, the first rwx is the user, the second is the group, and the third is other
+chmod means change mode
+conda activate genomics activates genomics
+conda deactivate deactivates it
